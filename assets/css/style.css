@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Sono:wght@300&display=swap');
-
-#logo {
-    position: absolute;
-    left: auto;
-    font-size: 280%;
-    margin-left: 30px;
-}
-
+/* Add styles for the navigation menu */
 nav {
     position: fixed;
     top: 0;
@@ -24,7 +16,6 @@ nav ul {
     display: inline-block;
 }
 nav li {
-    float: left;
     display: inline-block;
     margin: 0 10px;
 }
@@ -32,10 +23,6 @@ nav a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid white;
 }
 
 /* Add styles for the sections */
