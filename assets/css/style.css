@@ -26,16 +26,32 @@ nav a {
 }
 
 /* Add styles for the sections */
-section {
-    height: 100vh;
-    display: flex;
+
+
+
+section:nth-of-type(odd) {
+    height: 100vh; 
+    font-size: 36px;
     align-items: center;
     justify-content: center;
-    font-size: 36px;
-}
-section:nth-of-type(odd) {
     background-color: #f2f2f2;
 }
+
 section:nth-of-type(even) {
+    height: 100vh; 
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
     background-color: #ccc;
 }
+h1 {
+    height: 100vh; 
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;    
+}
+
+
+align-items: center;
+    justify-content: center;
