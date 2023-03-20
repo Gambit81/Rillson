@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Mindful ME</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mindful ME</title>
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	
 	<nav>
 		<ul>
 			<li><a href="#section1" class="active">Mindful ME</a></li>
@@ -21,63 +19,57 @@
 		</ul>
 	</nav>
 
+
+
+<main>
 	<section id="section1">
 		<h1>Mindful ME</h1>
-		
 	</section>
 	
 	<section id="section2">
 		<h2>About</h2>
-		<br>
-			 Mindfulness is the practice of being present and fully engaged in the current moment, without judgment or distraction. 
-			 It involves a heightened awareness of one's thoughts, emotions, and physical sensations, and a conscious effort to remain focused on the present moment rather than dwelling on the past or worrying about the future. 
-			 Mindfulness has been shown to reduce stress, increase emotional regulation, and improve overall well-being.
+		<p>Mindfulness is the practice of being present and fully engaged in the current moment, without judgment or distraction. It involves a heightened awareness of one's thoughts, emotions, and physical sensations, and a conscious effort to remain focused on the present moment rather than dwelling on the past or worrying about the future. Mindfulness has been shown to reduce stress, increase emotional regulation, and improve overall well-being.</p>
 	</section>
-		
 
 	<section id="section3">
-		<div><h2>Practice</h2></div>
-		<br>
-		<p>There are many ways to practice mindfulness, but here are some general steps that can be helpful:
-			<br>
-			<ol id="numbers">
-				<li>Find a quiet place to meditate.</li>
-				<li>Get comfortable and breathe deeply.</li>
-				<li>Focus on your breath and be present.</li>
-				<li>Gently bring your mind back to your breath if it wanders.</li>
-				<li>Observe your thoughts, emotions, and sensations without getting caught up in them.</li>
-				<li>Start with a few minutes and increase over time.</li>
-				
-			</ol>
-			<br>
-			Other ways to practice mindfulness include mindful walking, eating, and even washing dishes. 
-			The key is to bring a non-judgmental and curious awareness to whatever you are doing, without getting lost in thoughts or distractions.
-		</p>
-	</section>
-
-	<section id="section4">
-		<footer>
-			<h2>JOIN</h2>
-			<br>
-			<ul class="social-networks">
-				<li>
-					<a href="https://facebook.com" target="_blank" rel="noopener" 
-						aria-label="visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
-				</li>
-				<li>
-					<a href="https://twitter.com" target="_blank" rel="noopener" 
-						aria-label="visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
-				</li>
-				<li>
-					<a href="https://instagram.com" target="_blank" rel="noopener" 
-						aria-label="visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a>
-				</li>
-			</ul>
-		</footer>
+		<h2>Practice</h2>
+		<p>There are many ways to practice mindfulness, but here are some general steps that can be helpful:</p>
+		<ol>
+			<li>Find a quiet place to meditate.</li>
+			<li>Get comfortable and breathe deeply.</li>
+			<li>Focus on your breath and be present.</li>
+			<li>Gently bring your mind back to your breath if it wanders.</li>
+			<li>Observe your thoughts, emotions, and sensations without getting caught up in them.</li>
+			<li>Start with a few minutes and increase over time.</li>
+		</ol>
+		<p>Other ways to practice mindfulness include mindful walking, eating, and even washing dishes. The key is to bring a non-judgmental and curious awareness to whatever you are doing, without getting lost in thoughts or distractions.</p>
 	</section>
 
 	
-        
+	<div class="form-container">
+		<form method="POST" action="/register">
+				<h2 style="text-align:center;">Sign Up</h2>
+		  <label for="fname">First Name</label>
+		  <br>
+		  <input id="fname" name="first_name" type="text" required>
+		  <br><br>
+		  <label for="lname">Last Name</label><br>
+		  <input class="text-input" id="lname" name="last_name" type="text" required>
+		  <br><br>
+		  <label for="email">Email Address</label><br>
+		  <input class="text-input" type="email" id="email" name="email_address" required>
+		  <br><br>
+		  <input type="submit" value="Sign Up">
+		</form>
+	  </div>
+		
+    </section>
+</main>
 
-</body>
-</html>
+<footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+</footer>
