@@ -8,13 +8,13 @@ body {
     width: 100%;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #fff;
 }
 
-/* Add styles for the navigation menu */
+/* Styles for the navigation menu */
 
-nav {
+header {
     position: fixed;
     display: inline-block;
     top: 0;
@@ -60,6 +60,8 @@ nav a:hover {
     border-bottom: 1px solid rgb(255, 255, 255);
 }
 
+/* Styles for sections */
+
 section {
 	height: 100vh; 
     font-size: 36px;
@@ -81,15 +83,14 @@ section {
   }
 
   p {
-    color: rgba(177, 177, 177, 0.6);;
+    color: rgba(177, 177, 177, 0.6);
   }
 
-  #numbers {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+  ol.left {
+    color: #eee;
+    text-align: left;
+    justify-content: baseline;
+  }
 
 /* Form */
 
@@ -106,3 +107,17 @@ section {
     
   }
   
+/* footer */
+
+footer {
+    font-size: xxx-large;
+    background-color: rgba(60, 60, 60, 0.6);
+	padding: 100px;
+	text-align: center;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #fff;
+}
+
