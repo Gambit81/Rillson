@@ -1,3 +1,12 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  }
+
+
+
+
 body {
     background-image: url('../images/pexels-eva-bronzini-6469206.jpg');
     background-repeat: no-repeat;
@@ -72,27 +81,28 @@ section {
 
 #section2, #section3, #section4 {
   display: flex;
+  position: relative;
   flex-direction: row;
   border: 1px solid black;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-right: 150px;
-  margin-left: 150px;
+  margin: 30px 150px 30px 150px;
   background-color: rgba(60, 60, 60, 0.6);
 }
 
+
 #text {
   width: 50%;
-  display: flext;
+  display: flex;
+  text-items: left;
   padding: 0 20px;
   flex-direction: column;
 }
 
 img {
+  display: flex;
   width: 50%;
-  height: 100%;
-  display: flext;
-  flex-direction: column; 
+  height: 100%; 
+  
+ 
 }
 
 p {
@@ -102,15 +112,23 @@ p {
 ol.left {
   color: #dcdcdc;
   text-align: left;
-  justify-content: baseline;
+  justify-content: center;
+  list-style: inside;
 }
 
 /* Form */
 
 .form-container {
-  margin: 50px 10% 0 0;
+  margin: 150px;
   display: flex;
   position: relative;
+  font-size: xx-large;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 150% 150%;
+  padding: 10%;
 }
    
 .text-color {
@@ -119,7 +137,7 @@ ol.left {
 }
 
 .submit {
-  justify-content: center;
+  justify-content: left;
 }
 
 
