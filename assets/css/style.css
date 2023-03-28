@@ -123,12 +123,16 @@ ol.left {
   display: flex;
   position: relative;
   font-size: xx-large;
-}
-
-.form-container {
   display: grid;
   grid-template-columns: 150% 150%;
   padding: 10%;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
    
 .text-color {
