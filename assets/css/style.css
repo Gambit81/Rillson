@@ -114,15 +114,8 @@ ol.left {
     margin: 50px 10% 0 0;
     display: flex;
     position: relative;
-    
 }
-  
-form {
-    border: 1px solid black;
-    padding: 100px;
-    background-color: rgba(60, 60, 60, 0.6);
-}
-  
+   
 .text-color {
     color: #dcdcdc;
     text-align: left;
