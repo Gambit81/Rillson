@@ -81,21 +81,18 @@ section {
   background-color: rgba(60, 60, 60, 0.6);
 }
 
-
 #text {
   width: 50%;
   display: flext;
-    
-text-items: left;
   padding: 0 20px;
   flex-direction: column;
 }
 
 img {
-  display: flex;
   width: 50%;
-  height: 100%; 
-  object-fit: fill; /* Prevent the image from stretching or distorting */
+  height: 100%;
+  display: flext;
+  flex-direction: column; 
 }
 
 p {
