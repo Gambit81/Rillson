@@ -95,20 +95,29 @@ section {
 }
 
 
-#text {
+#text1 {
+  height: 70vh;
+  width: 50%;
+  text-align: start;
+  padding: 50px;
+  flex-direction: column;  
+}
+
+#text2 {
   width: 50%;
   display: flex;
-  text-align: left;
-  padding: 0 20px;
+  padding: 50px;
   flex-direction: column;
+}
+
+hr {
+  border-bottom: 1px solid rgb(220, 220, 220);
 }
 
 img {
   display: flex;
   width: 50%;
   height: 100%; 
-  
- 
 }
 
 p {
@@ -118,8 +127,7 @@ p {
 ol.left {
   height: 50vh;
   color: #dcdcdc;
-  text-align: left;
-  justify-content: center;
+  text-align: justify;
   list-style: inside;
 }
 
