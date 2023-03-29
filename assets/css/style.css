@@ -23,11 +23,9 @@ h1 {
 }
 
 h2, h3 {
-  
   height: 20vh;
   text-align: center;
   color: #dcdcdc;
-  
 }
 
 
@@ -106,7 +104,6 @@ section {
 }
 
 #text2 {
-  
   width: 50%;
   display: flex;
   text-align: start;
@@ -149,7 +146,6 @@ ul.square {
   grid-template-columns: 28vh;
   text-align: left;
   justify-content: center;
-  
 }
 
 input {
@@ -161,12 +157,10 @@ input {
    
 .text-color {
   color: #dcdcdc;
-  
 }
 
 .submit {
   margin-top: 30px;
-  
 }
 
 
