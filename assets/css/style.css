@@ -2,7 +2,7 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-  }
+}
 
 
 
@@ -15,10 +15,17 @@ body {
     width: 100%;
 }
 
-h1, h2, h3 {
+
+h1 {
   text-align: center;
   color: #dcdcdc;
   
+}
+
+h2, h3 {
+  height: 15vh;
+  text-align: center;
+  color: #dcdcdc;
 }
 
 
@@ -91,7 +98,7 @@ section {
 #text {
   width: 50%;
   display: flex;
-  text-items: left;
+  text-align: left;
   padding: 0 20px;
   flex-direction: column;
 }
@@ -109,6 +116,7 @@ p {
 }
 
 ol.left {
+  height: 50vh;
   color: #dcdcdc;
   text-align: left;
   justify-content: center;
