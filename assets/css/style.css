@@ -1,7 +1,7 @@
 *{
   margin:0;
   padding:0;
-  box-sizing:border-box;
+  border: none;
 }
 
 
@@ -23,7 +23,7 @@ h1 {
 }
 
 h2, h3 {
-  height: 20vh;
+  height: 150px;
   text-align: center;
   color: #dcdcdc;
 }
@@ -97,10 +97,10 @@ section {
 
 #text1 {
   font-size: 30px;
-  height: 70vh;
+  height: 50vh;
   width: 50%;
   text-align: start;
-  padding: 50px;
+  padding: 100px;
   flex-direction: column;
   text-align: justify;
 }
@@ -110,13 +110,15 @@ section {
   width: 50%;
   display: flex;
   text-align: start;
-  padding: 30px;
+  margin-bottom: 30px;
+  padding: 100px;
   flex-direction: column;
   text-align: justify;
 }
 
 hr {
   border-bottom: 1px solid rgb(220, 220, 220);
+  padding-bottom: 30px;
 }
 
 img {
@@ -151,6 +153,7 @@ ul.square {
   text-align: left;
   justify-content: center;
 }
+
 
 input {
   width: 100%;
