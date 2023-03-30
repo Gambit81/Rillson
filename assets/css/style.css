@@ -183,7 +183,11 @@ footer {
 
 footer a {
   color: #dcdcdc;
+  margin: 80px;
+  font-size: 7vh;
+  justify-content: center;
 }
+
 
 /* Media queries */
 
