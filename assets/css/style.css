@@ -7,6 +7,8 @@
   box-sizing:border-box;
 }
 
+/* background image and color for body */
+
 body {
     background-image: url('../images/pexels-eva-bronzini-6469206.jpg');
     background-repeat: no-repeat;
@@ -93,7 +95,6 @@ section {
   background-color: rgba(60, 60, 60, 0.6);
 }
 
-
 #text1 {
   font-size: 30px;
   height: 50vh;
@@ -170,7 +171,6 @@ input {
   margin-top: 30px;
 }
 
-
 /* footer */
 
 footer {
@@ -190,49 +190,84 @@ footer a {
 
 /* Media queries */
 
-/* Styles for screens with a maximum width of 768px */
-@media (max-width: 768px) {
-    body {
-      font-size: 16px;
-    }
-    header {
-      padding: 10px 0;
-    }
-    nav li {
-      flex: none;
-      width: 50%;
-    }
-    #text {
-      width: 100%;
-    }
-    img {
-      width: 100%;
-    }
+/* Styles applied only when the screen width is 1200px or larger */
+@media (min-width: 1200px) {
+  body {
+    width: 100%;
+  }
+
+  h2, h3 {
+    height: 150px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  nav ul {
+    height: 100%;
+  }
+
+  nav li {
+    flex: 1;
+  }
+
+  #section2, #section3, #section4 {
+    margin: 30px 150px 30px 150px;
+  }
+
+  .form-container {
+    width: 20%;
+    margin: 245px;
+  }
+
+  footer a {
+    margin: 180px;
+  }
+}
+
+/* Styles for 950px or larger */
+@media screen and (min-width: 950px) {
+  header {
+    padding: 20px 0;
+  }
+
+  nav a {
+    font-size: large;
+  }
+}
+
+/* For small screen size below 800px with */
+
+@media (max-width: 800px) {
+  body {
+    background-size: cover;
   }
   
-  /* Styles for screens with a maximum width of 480px */
-@media (max-width: 480px) {
-    body {
-      font-size: 14px;
-    }
-    header {
-      padding: 5px 0;
-    }
-    nav li {
-      width: 100%;
-    }
-    #section2, #section3, #section4 {
-      flex-direction: column;
-      margin-right: 0;
-      margin-left: 0;
-    }
-    #text, img {
-      width: 100%;
-    }
-    p {
-      font-size: 16px;
-    }
-    footer {
-      padding: 50px;
-    }
+  nav {
+    flex-direction: column;
+    height: auto;
   }
+  
+  nav li {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .form-container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    position: relative;
+    font-size: large;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  footer a {
+    margin: 10px;
+    font-size: 3vh;
+  }
+}
