@@ -10,7 +10,6 @@
 body {
     background-image: url('../images/pexels-eva-bronzini-6469206.jpg');
     background-repeat: no-repeat;
-    background-size: fill;
     background-position: center;
     width: 100%;
 }
@@ -149,6 +148,11 @@ ul.square {
   justify-content: center;
 }
 
+.icon {
+  font-size: 200%;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
 
 input {
   width: 100%;
@@ -172,17 +176,16 @@ input {
 footer {
   font-size: xx-large;
   background-color: rgba(60, 60, 60, 0.6);
-	padding: 10px;
+	padding: 30px;
 	text-align: center;
-  justify-content: space-between;
 }
 
 footer a {
   color: #dcdcdc;
-  margin: 80px;
+  margin: 180px;
   font-size: 7vh;
-  justify-content: center;
 }
+
 
 
 /* Media queries */
