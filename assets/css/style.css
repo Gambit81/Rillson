@@ -20,6 +20,7 @@ h1 {
   text-align: center;
   color: #dcdcdc;
   text-shadow: 2px 2px 4px #000000;
+  
 }
 
 h2, h3 {
@@ -35,7 +36,6 @@ header {
   position: fixed;
   width: 100%;
   background-color: rgba(60, 60, 60, 0.6);
-  padding: 30px 0;
   z-index: 1;
 }
 
@@ -44,18 +44,11 @@ header {
   font-size: xx-large;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
+nav ul {  
   display: flex;
-  list-style: none;
-  height: 100%;
 }
   
 nav li {
-  margin: 0;
-  padding: 0;
-  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +58,6 @@ nav a {
   color: rgb(220, 220, 220);
   text-shadow: 2px 2px 4px #000000;
   text-decoration: none;
-  font-size: x-large;
 }
 
 .active, nav a:hover {
