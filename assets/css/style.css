@@ -180,3 +180,145 @@ footer a {
   margin: 180px;
   font-size: 7vh;
 }
+
+
+/* Media Queries*/
+
+/* For mobile phones */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  body {
+    background-image: url('../images/pexels-eva-bronzini-6469206.jpg');
+  }
+  
+  h1 {
+    font-size: x-large;
+    text-align: center;
+    color: #dcdcdc;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  h2, h3 {
+    height: 50px;
+    text-align: center;
+    color: #dcdcdc;
+  }
+  
+  /* Styles for the navigation menu */
+  header {
+    position: fixed;
+    width: 100%;
+    padding: 3px;
+    background-color: rgba(60, 60, 60, 0.6);
+    z-index: 1;
+  }
+  
+  #center {
+    font-weight: bolder;
+    font-size: small;
+    text-align: center;
+  }
+  
+  nav ul {  
+    display: flex;
+  }
+    
+  nav li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav a {
+    font-size: smaller;
+    color: rgb(220, 220, 220);
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration: none;
+  }
+  
+  .active, nav a:hover {
+    border-bottom: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid #fff;
+  }
+  
+  /* Styles for sections */
+  section {
+    height: 100vh; 
+    font-size: 36px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #section2, #section3, #section4 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: rgba(60, 60, 60, 0.6);
+  }
+  
+  #text1 {
+    font-size: 13px;
+    height: 80vh;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  #text2 {
+    font-size: 10px;
+    width: 50%;
+    justify-content: center;
+    padding: 10px;
+    
+  }
+  
+  hr {
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+  }
+  
+  img {
+    display: flex;
+    width: 50%;
+    height: 100%; 
+  }
+  
+  p {
+    height: 10rem;
+    color: rgb(220, 220, 220);
+  }
+  
+  ul.square {
+    color: #dcdcdc;
+    list-style: square;
+    list-style-position: outside;
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  /* Form */
+  .form-container {
+    width: 65px;
+    margin: 15%;
+    font-size: large;
+  }
+
+  #section4 > img {
+    
+    
+    height: 120vh;
+  }
+  
+  .icon {
+    font-size: 200%;
+    margin-left: 55px;
+    margin-bottom: 30px;
+  }
+}
