@@ -321,4 +321,17 @@ footer a {
     margin-left: 55px;
     margin-bottom: 30px;
   }
+
+  footer {
+    font-size: large;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 10px;
+    text-align: center;
+    }
+    
+    footer a {
+    color: #dcdcdc;
+    margin: 10px;
+    font-size: 7vh;
+    }
 }
