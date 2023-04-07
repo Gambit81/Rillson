@@ -463,7 +463,7 @@ footer a {
 
 /* For 1025px and above */
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) and (max-width: 3859px) {
 
   h1 {
     font-size: 3rem;
@@ -513,6 +513,61 @@ footer a {
     border-bottom: 1px solid #fff;
   }
 
+    /* Styles for sections */
 
-  
+  section {
+    height: 100vh; 
+    font-size: 36px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+    
+  #section2, #section3, #section4 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 30px 150px 30px 150px;
+    background-color: rgba(60, 60, 60, 0.6);
+  }
+    
+  #text1 {
+    width: 50%;
+    text-align: justify;
+    padding: 5px;
+  }
+    
+  #text2 {
+    font-size: 30px;
+    width: 50%;
+    flex-direction: column;
+    text-align: justify;
+    padding: 50px;
+  }
+    
+  hr {
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+  }
+    
+  img {
+    display: flex;
+    width: 50%;
+    height: 100%; 
+  }
+    
+  p {
+    color: rgb(220, 220, 220);
+  }
+    
+  ul.square {
+    color: #dcdcdc;
+    list-style: square;
+    list-style-position: outside;
+    margin-bottom: 40px;
+    padding-left: 50px;
+  }
 }
