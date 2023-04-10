@@ -1,17 +1,18 @@
-Mindful ME
+# Mindful ME
 
 Welcome to Mindful ME, a website dedicated to the practice of mindfulness! This website provides information about mindfulness and practical tips for incorporating mindfulness into your daily routine.
-Getting Started
 
-To get started with Mindful ME, simply open the index.html file in your preferred web browser.
+
+View the page using this link: [Mindful ME](https://8000-gambit81-rillson-5h93ml97679.ws-eu93.gitpod.io/#section2).
+
 Features
 
 The Mindful ME website includes the following features:
 
-    Navigation bar with links to different sections of the website
-    Sections dedicated to providing information about mindfulness and tips for practicing mindfulness
-    Newsletter sign-up form for staying up-to-date on mindfulness news and events
-    Social media links for joining the Mindful ME community
+* Navigation bar with links to different sections of the website
+* Sections dedicated to providing information about mindfulness and tips for practicing mindfulness
+* Newsletter sign-up form for staying up-to-date on mindfulness news and events
+* Social media links for joining the Mindful ME community
 
 Sections
 
@@ -37,7 +38,6 @@ The Mindful ME website was created using the following technologies:
 
     HTML
     CSS
-    JavaScript
 
 Credits
 
