@@ -460,21 +460,30 @@ footer a {
   }
 }
 
-/* For 1025px and above */
+/* For laptops */
 
-@media screen and (min-width: 1025px) and (max-width: 3859px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-image: url('../images/pexels-eva-bronzini-6469206.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+  }
 
   h1 {
-    font-size: 3rem;
+    text-align: center;
+    color: #dcdcdc;
+    text-shadow: 2px 2px 4px #000000;
   }
-  
+
   h2, h3 {
     height: 100px;
-    font-size: 2rem;
+    text-align: center;
+    color: #dcdcdc;
   }
 
   /* Styles for the navigation menu */
-  
+
   header {
     position: fixed;
     width: 100%;
@@ -504,7 +513,6 @@ footer a {
     color: rgb(220, 220, 220);
     text-shadow: 2px 2px 4px #000000;
     text-decoration: none;
-    text-align: center;
   }
 
   .active, nav a:hover {
@@ -512,7 +520,7 @@ footer a {
     border-bottom: 1px solid #fff;
   }
 
-    /* Styles for sections */
+  /* Styles for sections */
 
   section {
     height: 100vh; 
@@ -523,50 +531,94 @@ footer a {
     display: flex;
     flex-direction: column;
   }
-    
+
   #section2, #section3, #section4 {
     display: flex;
     position: relative;
     flex-direction: row;
     border: 1px solid black;
-    margin: 30px 150px 30px 150px;
+    margin: 30px;
     background-color: rgba(60, 60, 60, 0.6);
   }
-    
+
   #text1 {
+    font-size: 20px;
+    height: 80vh;
     width: 50%;
-    text-align: justify;
-    padding: 5px;
-  }
-    
-  #text2 {
-    font-size: 30px;
-    width: 50%;
-    flex-direction: column;
     text-align: justify;
     padding: 50px;
   }
+
+  #text2 {
+    font-size:20px;
+    height: 90vh;
+    width: 50%;
+    margin-top: auto;
     
+    padding: 20px;
+  }
+
   hr {
     margin-bottom: 30px;
     border-bottom: 1px solid rgb(220, 220, 220);
   }
-    
+
   img {
-    display: flex;
+    
     width: 50%;
     height: 100%; 
   }
-    
+
   p {
+    height: 20vh;
     color: rgb(220, 220, 220);
   }
-    
+
   ul.square {
     color: #dcdcdc;
     list-style: square;
     list-style-position: outside;
     margin-bottom: 40px;
-    padding-left: 50px;
+    padding-left: 50
+  }
+
+    /* Form */
+  
+  .form-container {
+    width: 50%;
+    font-size: large;
+    display: flex;
+    
+    text-align: left;
+    
+  }
+      
+  .icon {
+    font-size: 200%;
+    margin-left: 130px;
+    justify-content: center;
+  }
+      
+  input {
+    width: 100%;
+  }
+      
+  .text-color {
+    color: #dcdcdc;
+  }
+
+    /* Footer */
+  
+  footer {
+    font-size: large;
+    padding: 20px;
+  }
+    
+    footer a {
+    margin: 50px;
+    font-size: 5vh;
   }
 }
+
+
+

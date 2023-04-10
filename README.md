@@ -1,6 +1,7 @@
 # Mindful ME
 
-Welcome to Mindful ME, a website dedicated to the practice of mindfulness! This website provides information about mindfulness and practical tips for incorporating mindfulness into your daily routine.
+Welcome to Mindful ME, a website dedicated to the practice of mindfulness!<br> 
+This website provides information about mindfulness and practical tips for incorporating mindfulness into your daily routine.
 
 
 View the page using this link: [Mindful ME](https://gambit81.github.io/Rillson/).
