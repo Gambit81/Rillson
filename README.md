@@ -4,10 +4,13 @@ Welcome to Mindful ME, a website dedicated to the practice of mindfulness!<br>
 This website provides information about mindfulness and practical tips for incorporating mindfulness into your daily routine.
 
 
+
+
 View the page using this link: [Mindful ME](https://gambit81.github.io/Rillson/).
 
-Features
 
+Features
+<hr>
 The Mindful ME website includes the following features:
 
 * Navigation bar with links to different sections of the website
@@ -15,8 +18,11 @@ The Mindful ME website includes the following features:
 * Newsletter sign-up form for staying up-to-date on mindfulness news and events
 * Social media links for joining the Mindful ME community
 
-Sections
 
+
+
+Sections
+<hr>
 The Mindful ME website is divided into the following sections:
 Home
 
