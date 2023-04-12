@@ -10,7 +10,6 @@ View the page using this link: [Mindful ME](https://gambit81.github.io/Rillson/)
 <br>
 
 ## Features
-<hr>
 
 The Mindful ME website includes the following features:
 
@@ -23,9 +22,9 @@ The Mindful ME website includes the following features:
 
 
 ## Existing features
-<hr>
 
 * Navigation
+
     * Full responsive navigation bar including links provided for different section of the website: About, Practice, Mindful ME(home), Subscribe, Join US.
     * The home page - Mindful ME - is always highlighted.
     * Whe the user scrolls through the website, the navigation bar is fixed and easily navigated.
@@ -35,6 +34,7 @@ The Mindful ME website includes the following features:
 <br>
 
 * The Header
+
     * The home section provides a clear introduction of the website and the practice of mindfulness.
 <br>
 
@@ -42,6 +42,7 @@ The Mindful ME website includes the following features:
 <br>
 
 * About
+
     * The about section provides an overview of mindfulness and its benefits.
 <br>
 
@@ -49,6 +50,7 @@ The Mindful ME website includes the following features:
 <br>
 
 * Practice
+
     * The practice section provides practical tips for incorporating mindfulness into your daily routine.
 <br>
 
@@ -56,12 +58,14 @@ The Mindful ME website includes the following features:
 <br>
 
 * Newsletter
+
     * The newsletter section provides a sign-up form for subscribing to the Mindful ME newsletter.
 <br>
 
 ![Subscribe](/assets/images/News%20section.png)
 
 * Footer
+
     * The join us section provides links to Mindful ME's social media pages.
 <br>
 
@@ -69,7 +73,6 @@ The Mindful ME website includes the following features:
 <br>
 
 ## Testing
-<hr>
 
 * I tested that this page works in the following browsers: Chrome, Firefox, Edge
 
@@ -79,27 +82,27 @@ The Mindful ME website includes the following features:
 
 * I have ascertained that the form is operational, as it mandates entries in all fields, only accepts a valid email format in the email field, and the submit button functions correctly.
 <br>
+
 ## Validator Testing
-<hr>
 
-* HTML    
+* HTML  
+
     * No errors were returned when passing through the official W3C HTML validator.
-<br>
-* CSS
-    * No errors were found when passing through the official W3C CSS validator
-<br> 
 
+* CSS
+
+    * No errors were found when passing through the official W3C CSS validator
 
 * Accessibility
+
     * The website is accessible with colors and fonts when running through lighthouse in devtools.
 
 ![Lighthouse](/assets/images/Lighthouse.png)
 
 ## Bugs
-<hr>
+
 
 ## Deployment
-<hr>
 
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
 
@@ -109,10 +112,9 @@ The Mindful ME website includes the following features:
 <br>
 
 ## Credits
-<hr>
 
-### Content
+### - Content
 * The social media icons used on the Mindful ME website were obtained from [Font Awesome](https://fontawesome.com/).
 * The steps to implement form validation on the Sign Up page were sourced from [w3schools](https://www.w3schools.com/html/html_forms.asp)
-### Media
+### - Media
 * The images used on the Mindful MEwebsite were obtained from [Pexels](https://www.pexels.com/sv-se/sok/mindfulness/).
