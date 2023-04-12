@@ -25,7 +25,7 @@ The Mindful ME website includes the following features:
 
 * Navigation
 
-    * Full responsive navigation bar including links provided for different section of the website: About, Practice, Mindful ME(home), Subscribe, Join US.
+    * Full responsive navigation bar including links provided for different section of the website: About, Practice, Mindful ME(home page), Subscribe, Join US.
     * The home page - Mindful ME - is always highlighted.
     * Whe the user scrolls through the website, the navigation bar is fixed and easily navigated.
 <br>
