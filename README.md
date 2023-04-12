@@ -91,7 +91,7 @@ The Mindful ME website includes the following features:
 
 * CSS
 
-    * No errors were found when passing through the official W3C CSS validator
+    * No errors were found when passing through the official W3C (Jigsaw) validator.
 
 * Accessibility
 
