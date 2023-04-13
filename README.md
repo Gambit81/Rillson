@@ -1,4 +1,4 @@
-# Mindful ME
+<h1 align="center">Mindful ME</h1>
 
 Welcome to Mindful ME, a website dedicated to the practice of mindfulness!<br> 
 This website provides information about mindfulness and practical tips for incorporating mindfulness into your daily routine.
@@ -9,7 +9,10 @@ This website provides information about mindfulness and practical tips for incor
 View the page using this link: [Mindful ME](https://gambit81.github.io/Rillson/).
 <br>
 
-## Features
+<h2>User experiance</h2>
+
+<h2>Features</h2>
+
 
 The Mindful ME website includes the following features:
 
@@ -21,7 +24,7 @@ The Mindful ME website includes the following features:
 
 
 
-## Existing features
+<h2>Existing features</h2>
 
 * Navigation
 
@@ -72,7 +75,23 @@ The Mindful ME website includes the following features:
 ![Join US](/assets/images/Footer%20section.png)
 <br>
 
-## Testing
+<h2>Wireframes</h2>
+
+* [Wirify](https://www.wirify.com/) was used for wireframes webpage collage picture.
+    
+    1   Navigation bar and Home section
+    
+    2   About section with image to the right
+    
+    3   Practice section with image to the left
+    
+    4   Subscription section with image to the right
+    
+    5   Footer with icon links to social media
+
+![Wireframes](/assets/images/wireframes.png)
+
+<h2>Testing</h2>
 
 * I tested that this page works in the following browsers: Chrome, Firefox, Edge
 
@@ -83,38 +102,48 @@ The Mindful ME website includes the following features:
 * I have ascertained that the form is operational, as it mandates entries in all fields, only accepts a valid email format in the email field, and the submit button functions correctly.
 <br>
 
-## Validator Testing
+<h2>Validator Testing</h2>
 
 * HTML  
 
     * No errors were returned when passing through the official W3C HTML validator.
 
+![Html checker](/assets/images/HTML%20checker.png)
+
 * CSS
 
     * No errors were found when passing through the official W3C (Jigsaw) validator.
 
-* Accessibility
+![CSS checker](/assets/images/CSS%20checker.png)
+
+* Lighthouse
 
     * The website is accessible with colors and fonts when running through lighthouse in devtools.
 
 ![Lighthouse](/assets/images/Lighthouse.png)
 
-## Bugs
+<h2>Bugs</h2>
 
 
-## Deployment
+<h2>Deployment</h2>
 
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-    *  In the [GitHub repository](https://github.com/Gambit81/Rillson), navigate to the Settings tab
-    *  From the source section drop-down menu, select the Master Branch
-    *  Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+    *   In the [GitHub repository](https://github.com/Gambit81/Rillson), navigate to the Settings tab
+    *   From the source section drop-down menu, select the Master Branch
+    *   Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 <br>
 
-## Credits
+<h2>Credits</h2>
 
-### - Content
-* The social media icons used on the Mindful ME website were obtained from [Font Awesome](https://fontawesome.com/).
-* The steps to implement form validation on the Sign Up page were sourced from [w3schools](https://www.w3schools.com/html/html_forms.asp)
-### - Media
-* The images used on the Mindful MEwebsite were obtained from [Pexels](https://www.pexels.com/sv-se/sok/mindfulness/).
+<h3> - Credits</h3>
+
+*   Thanks to my mentor [Can](https://www.linkedin.com/in/cansucullu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLOvyGI67SAS8Yk8wpSvTfw%3D%3D), I was able to achieve my goals and complete my project with confidence.
+*   For programming queries, I used [Google](https://www.google.com/)
+*   Got help from different students on the issues I faced with this project in [Slack](https://slack.com/)
+*   Almost all problems I encounter along the way with this project, I found the solution from [w3schools](https://www.w3schools.com/html/html_forms.asp)
+*   The social media icons used on the Mindful ME website were obtained from [Font Awesome](https://fontawesome.com/).
+
+<h3> - Media</h3>
+
+*   The images used on the Mindful MEwebsite were obtained from [Pexels](https://www.pexels.com/sv-se/sok/mindfulness/).
