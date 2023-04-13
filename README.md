@@ -1,4 +1,4 @@
-<h1 align="center">Mindful ME</h1>
+<h1 align="center"><strong>Mindful ME</strong></h1>
 
 Welcome to Mindful ME, a website dedicated to the practice of mindfulness!<br> 
 This website provides information about mindfulness and practical tips for incorporating mindfulness into your daily routine.
@@ -6,13 +6,27 @@ This website provides information about mindfulness and practical tips for incor
 
 ![The project](/assets/images/Different%20monitors.png)
 
-View the page using this link: [Mindful ME](https://gambit81.github.io/Rillson/).
+View the page: [Mindful ME](https://gambit81.github.io/Rillson/).
 <br>
 
-<h2>User experiance</h2>
+<h2>User Experience</h2>
+
+*   <h3>First time user goals</h3>
+
+    1   As a first time user, I want to easily understand the main purpose of the site. 
+
+    2   As a first time user, I want to quickly determine if the site is relevant to me and if I should continue exploring.
+
+    3   As a first time user, I want to be able to easily navigate throughout the site to find content.
+
+*   <h3>Returning user goals</h3>
+
+    1   As a returning user, I want to sign up to the newsletter so that I'm up to date with tips and news about the subject.
+
+    2   As a returning user, I want to find community links.
+
 
 <h2>Features</h2>
-
 
 The Mindful ME website includes the following features:
 
@@ -122,8 +136,10 @@ The Mindful ME website includes the following features:
 
 ![Lighthouse](/assets/images/Lighthouse.png)
 
-<h2>Bugs</h2>
+<h2>Known Bugs</h2>
 
+*   On some mobile devices the images pushes the size of screen out more than any of the other content on the page.
+    *   On smaller screens, the images layout are put over/under the text in the different sections.
 
 <h2>Deployment</h2>
 
@@ -136,14 +152,14 @@ The Mindful ME website includes the following features:
 
 <h2>Credits</h2>
 
-<h3> - Credits</h3>
+*   <h3>Credits</h3>
 
-*   Thanks to my mentor [Can](https://www.linkedin.com/in/cansucullu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLOvyGI67SAS8Yk8wpSvTfw%3D%3D), I was able to achieve my goals and complete my project with confidence.
-*   For programming queries, I used [Google](https://www.google.com/)
-*   Got help from different students on the issues I faced with this project in [Slack](https://slack.com/)
-*   Almost all problems I encounter along the way with this project, I found the solution from [w3schools](https://www.w3schools.com/html/html_forms.asp)
-*   The social media icons used on the Mindful ME website were obtained from [Font Awesome](https://fontawesome.com/).
+    *   Thanks to my mentor [Can](https://www.linkedin.com/in/cansucullu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLOvyGI67SAS8Yk8wpSvTfw%3D%3D), I was able to achieve my goals and complete my project with confidence.
+    *   For programming queries, I used [Google](https://www.google.com/)
+    *   Got help from different students on the issues I faced with this project in [Slack](https://slack.com/)
+    *   Almost all problems I encounter along the way with this project, I found the solution from [w3schools](https://www.w3schools.com/html/html_forms.asp)
+    *   The social media icons used on the Mindful ME website were obtained from [Font Awesome](https://fontawesome.com/).
 
-<h3> - Media</h3>
+*   <h3>Media</h3>
 
-*   The images used on the Mindful MEwebsite were obtained from [Pexels](https://www.pexels.com/sv-se/sok/mindfulness/).
+    *   The images used on the Mindful MEwebsite were obtained from [Pexels](https://www.pexels.com/sv-se/sok/mindfulness/).
