@@ -2,28 +2,26 @@
 
 Welcome to Mindful ME, a website dedicated to the practice of mindfulness!<br> 
 This website provides information about mindfulness and practical tips for incorporating mindfulness into your daily routine.
-<br>
 
 ![The project](/assets/images/website-mockup.png)
 
 View the page: [Mindful ME](https://gambit81.github.io/Rillson/).
-<br>
 
 <h2>User Experience</h2>
 
 *   <h3>First time user goals</h3>
 
-    1   As a first time user, I want to easily understand the main purpose of the site. 
+    1.   As a first time user, I want to easily understand the main purpose of the site. 
 
-    2   As a first time user, I want to quickly determine if the site is relevant to me and if I should continue exploring.
+    2.   As a first time user, I want to quickly determine if the site is relevant to me and if I should continue exploring.
 
-    3   As a first time user, I want to be able to easily navigate throughout the site to find content.
+    3.   As a first time user, I want to be able to easily navigate throughout the site to find content.
 
 *   <h3>Returning user goals</h3>
 
-    1   As a returning user, I want to sign up to the newsletter so that I'm up to date with tips and news about the subject.
+    1.   As a returning user, I want to sign up to the newsletter so that I'm up to date with tips and news about the subject.
 
-    2   As a returning user, I want to find community links.
+    2.   As a returning user, I want to find community links.
 
 
 <h2>Features</h2>
@@ -34,60 +32,46 @@ The Mindful ME website includes the following features:
 * Sections dedicated to providing information about mindfulness and tips for practicing mindfulness
 * Newsletter sign-up form for staying up-to-date on mindfulness news and events
 * Social media links for joining the Mindful ME community
-<br>
-
-
 
 <h2>Existing features</h2>
 
 * Navigation
 
     * Full responsive navigation bar including links provided for different section of the website: About, Practice, Mindful ME(home page), Subscribe, Join US.
-    * The home page - Mindful ME - is always highlighted.
-    * Whe the user scrolls through the website, the navigation bar is fixed and easily navigated.
-<br>
+    * The home page <strong>Mindful ME</strong> is always highlighted.
+    * When the user scrolls through the website, the navigation bar is fixed and easily navigated.
 
 ![Nav bar](/assets/images/nav-bar.png)
-<br>
 
 * The Header
 
     * The home section provides a clear introduction of the website and the practice of mindfulness.
-<br>
 
 ![Home](/assets/images/home-section.png)
-<br>
 
 * About
 
     * The about section provides an overview of mindfulness and its benefits.
-<br>
 
 ![About](/assets/images/about-section.png)
-<br>
 
 * Practice
 
     * The practice section provides practical tips for incorporating mindfulness into your daily routine.
-<br>
 
 ![Practice](/assets/images/practice-section.png)
-<br>
 
 * Newsletter
 
     * The newsletter section provides a sign-up form for subscribing to the Mindful ME newsletter.
-<br>
 
 ![Subscribe](/assets/images/news-section.png)
 
 * Footer
 
     * The join us section provides links to Mindful ME's social media pages.
-<br>
 
 ![Join US](/assets/images/footer-section.png)
-<br>
 
 <h2>Wireframes</h2>
 
@@ -107,14 +91,15 @@ The Mindful ME website includes the following features:
 
 <h2>Testing</h2>
 
-* I tested that this page works in the following browsers: Chrome, Firefox, Edge
+*   I tested that this page works in the following browsers: Chrome, Firefox, Edge
 
-* I was able to verify that this project is capable of adapting to various screen sizes while maintaining an attractive appearance and full functionality by utilizing the devtools.
+*   I was able to verify that this project is capable of adapting to various screen sizes while maintaining an attractive appearance and full functionality by utilizing the devtools.
 
-* I have verified that the navigation, header, about, practice, subscribe, and "Join Us" text are legible and comprehensible.
+*   I have verified that the navigation, header, about, practice, subscribe, and "Join Us" text are legible and comprehensible.
 
-* I have ascertained that the form is operational, as it mandates entries in all fields, only accepts a valid email format in the email field, and the submit button functions correctly.
-<br>
+*   I have ascertained that the form is operational, as it mandates entries in all fields, only accepts a valid email format in the email field. 
+
+*   The submit button dosen´t have a validate form data, so it´s a mockup.
 
 <h2>Validator Testing</h2>
 
@@ -138,7 +123,20 @@ The Mindful ME website includes the following features:
 
 <h2>Development Process</h2>
 
-*    type about your journey as a developer
+*   From start to finish of this first project, it has been an amazing journey.<br> 
+The hardest and I´m still struggling with it, is the media queries. I have used: 
+
+    1   [Code Institute Fullstack Course](https://codeinstitute.net) 
+
+    2   [w3schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+
+    3   [Youtube](https://www.youtube.com/watch?v=69IbzTWg5PM)
+
+    Even though I have read, watch content and coding on my own, I can´t get it right.<br>
+    All other coding, I had the [Love Running](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) project as a reference to go by in a structured way.
+    
+    *   Also the README file, I did at the end of the project. Which now in hindsight, It was best to start at the beginning as the memory is short and I´m struggling now on how I went by with every small problem and how I fixed it.<br> 
+    My mentor helped me a lot to understand the structure way of how a good coder has to work and I´m taking this valuable lesson with me to the next project.
 
 <h2>Known Bugs</h2>
 
@@ -156,8 +154,6 @@ The Mindful ME website includes the following features:
 
 ![Git comments](/assets/images/git-comments.png)
 
-<br>
-
 <h2>Credits</h2>
 
 *   <h3>Credits</h3>
@@ -169,5 +165,5 @@ The Mindful ME website includes the following features:
 
 *   <h3>Media</h3>
 
-    *   The images used on the Mindful MEwebsite were obtained from [Pexels](https://www.pexels.com/sv-se/sok/mindfulness/).
-    *   The social media icons used on the Mindful ME website were obtained from [Font Awesome](https://fontawesome.com/).
+    *   The images used on the website were obtained from [Pexels](https://www.pexels.com/sv-se/sok/mindfulness/).
+    *   The social media icons used on the website were obtained from [Font Awesome](https://fontawesome.com/).
