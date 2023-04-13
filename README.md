@@ -47,7 +47,7 @@ The Mindful ME website includes the following features:
     * Whe the user scrolls through the website, the navigation bar is fixed and easily navigated.
 <br>
 
-![Nav bar](/assets/images/Nav%20Bar.png)
+![Nav bar](/assets/images/nav-bar.png)
 <br>
 
 * The Header
@@ -55,7 +55,7 @@ The Mindful ME website includes the following features:
     * The home section provides a clear introduction of the website and the practice of mindfulness.
 <br>
 
-![Home](/assets/images/Home%20section.png)
+![Home](/assets/images/home-section.png)
 <br>
 
 * About
@@ -63,7 +63,7 @@ The Mindful ME website includes the following features:
     * The about section provides an overview of mindfulness and its benefits.
 <br>
 
-![About](/assets/images/About%20section.png)
+![About](/assets/images/about-section.png)
 <br>
 
 * Practice
@@ -71,7 +71,7 @@ The Mindful ME website includes the following features:
     * The practice section provides practical tips for incorporating mindfulness into your daily routine.
 <br>
 
-![Practice](/assets/images/Practice%20section.png)
+![Practice](/assets/images/practice-section.png)
 <br>
 
 * Newsletter
@@ -79,14 +79,14 @@ The Mindful ME website includes the following features:
     * The newsletter section provides a sign-up form for subscribing to the Mindful ME newsletter.
 <br>
 
-![Subscribe](/assets/images/News%20section.png)
+![Subscribe](/assets/images/news-section.png)
 
 * Footer
 
     * The join us section provides links to Mindful ME's social media pages.
 <br>
 
-![Join US](/assets/images/Footer%20section.png)
+![Join US](/assets/images/footer-section.png)
 <br>
 
 <h2>Wireframes</h2>
@@ -122,19 +122,19 @@ The Mindful ME website includes the following features:
 
     * No errors were returned when passing through the official W3C HTML validator.
 
-![Html checker](/assets/images/HTML%20checker.png)
+![Html checker](/assets/images/html-checker.png)
 
 * CSS
 
     * No errors were found when passing through the official W3C (Jigsaw) validator.
 
-![CSS checker](/assets/images/CSS%20checker.png)
+![CSS checker](/assets/images/css-checker.png)
 
 * Lighthouse
 
     * The website is accessible with colors and fonts when running through lighthouse in devtools.
 
-![Lighthouse](/assets/images/Lighthouse.png)
+![Lighthouse](/assets/images/lighthouse.png)
 
 <h2>Development Process</h2>
 
@@ -155,7 +155,7 @@ The Mindful ME website includes the following features:
 
 *   Git comments was used during the development of this project.
 
-![Git comments](/assets/images/git%20comments.png)
+![Git comments](/assets/images/git-comments.png)
 
 <br>
 
