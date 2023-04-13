@@ -142,8 +142,7 @@ The Mindful ME website includes the following features:
 
 <h2>Known Bugs</h2>
 
-*   On some mobile devices the images pushes the size of screen out more than any of the other content on the page.
-    *   On smaller screens, the images layout are put over/under the text in the different sections.
+*   On some mobile devices the images pushes the size of screen less than any of the other content on the page.
 
 <h2>Deployment</h2>
 
