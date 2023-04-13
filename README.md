@@ -11,17 +11,17 @@ View the page: [Mindful ME](https://gambit81.github.io/Rillson/).
 
 *   <h3>First time user goals</h3>
 
-    1.   As a first time user, I want to easily understand the main purpose of the site. 
+    1   As a first time user, I want to easily understand the main purpose of the site. 
 
-    2.   As a first time user, I want to quickly determine if the site is relevant to me and if I should continue exploring.
+    2   As a first time user, I want to quickly determine if the site is relevant to me and if I should continue exploring.
 
-    3.   As a first time user, I want to be able to easily navigate throughout the site to find content.
+    3   As a first time user, I want to be able to easily navigate throughout the site to find content.
 
 *   <h3>Returning user goals</h3>
 
-    1.   As a returning user, I want to sign up to the newsletter so that I'm up to date with tips and news about the subject.
+    1   As a returning user, I want to sign up to the newsletter so that I'm up to date with tips and news about the subject.
 
-    2.   As a returning user, I want to find community links.
+    2   As a returning user, I want to find community links.
 
 
 <h2>Features</h2>
